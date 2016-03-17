@@ -1,0 +1,42 @@
+{
+  "name": "angular2-seed",
+  "version": "1.0.0",
+  "description": "Getting started with angular2 and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheB1ackSheep/angular2-seed.git"
+  },
+  "keywords": [
+    "angular2"
+  ],
+  "author": "Falook Glico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheB1ackSheep/angular2-seed/issues"
+  },
+  "homepage": "https://github.com/TheB1ackSheep/angular2-seed#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "angular2": "2.0.0-beta.8",
+    "systemjs": "0.19.22",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.5.15"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.7",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^2.12.1",
+    "nodemon": "^1.9.1",
+    "gulp-nodemon": "^2.0.6",
+  }
+}

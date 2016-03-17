@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    script(src="js/es6-shim.min.js")
+    script(src="js/system-polyfills.js")
+    script(src="js/shims_for_IE.js")
+
+    script(src="js/angular2-polyfills.js")
+    script(src="js/system.src.js")
+    script(src="js/Rx.js")
+    script(src="js/angular2.dev.js")
+
+    script(type='text/javascript').
+      System.config({
+        packages: {
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('js/main.js').then(null, console.error.bind(console));
+  body
+    my-app
